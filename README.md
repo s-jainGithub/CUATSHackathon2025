@@ -33,4 +33,27 @@ A value associated to an input. Hashmaps - assign a hash value to a key and then
 
 Practically: Hashmaps are O(1) for for Access, Insert, Delete HOWEVER NO SENSE OF ORDER
 
+Kadane's Algorithm
+
+Finding the maximum sum of a contiguous subarray:
+[4,-1,2,-7,3,4]
+
+[4] Current Sum = 4 Max Sum = 4
+
+[4,-1] Current Sum = 3 Max Sum = 4
+
+[4,-1,2] Current Sum = 4 Max Sum = 5
+
+[4,-1,2,-7] Current Sum = -2 Max Sum = 5
+
+[3] Current Sum = 3 Max Sum = 5
+
+[3,4] Current Sum = 7 Max Sum = 7
+
+Pointers
+Binary Search for a value in sorted list in O(log(n))
+Left Pointer Right Pointer
+
+
+
 
