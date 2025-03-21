@@ -54,6 +54,67 @@ Pointers
 Binary Search for a value in sorted list in O(log(n))
 Left Pointer Right Pointer
 
+Linked Lists
+
+Access O(n)
+Search O(n)
+Insert O(1)
+Delete O(1)
+
+
+Trees
+
+If we have a balanced tree, the search algorithm will run in O(logn) time. 
+
+Depth First Search - GO AS DEEP AS POSSIBLE AND THEN BACKTRACK
+
+Inorder
+Left All the way Right
+
+def inorder(root):
+  if not root:
+    return inorder(root.left)
+  print root.val
+
+
+Preorder 
+
+Postorder
+
+BACKTRACKING - RECURSION
+
+Breadth First Search
+
+
+
+def inorder_dfs(root):
+    if root is None:
+        return
+    
+    # Traverse left subtree
+    inorder_dfs(root.left)
+    
+    # Visit current node
+    print(root.value, end=' ')
+    
+    # Traverse right subtree
+    inorder_dfs(root.right)
+
+
+  Double Ended Queues 
+
+
+Graphs
+
+Most commonly graphs are represented as matrices
+Graphs | Matrix DFS
+Counting Paths across a matrix with obstacles
+
+
+
+
+
+
 
 
 
